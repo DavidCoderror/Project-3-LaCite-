@@ -1,6 +1,6 @@
 What to do List (Update Througout)
 
-David(Gaylord) :
+David (Gaylord) :
 -Page D'accueuil
 -doesnt know how to spell or write
 
