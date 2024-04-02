@@ -1,17 +1,13 @@
 What to do List (Update Througout)
 
-David
-
+David :
 -Page D'acceuil
 
-Noah (Short King)
-
+Noah (Short King) :
 -Page D'acceuil
 
-Alex
-
+Alex :
 -Inscription
 
-Al 
-
+Al :
 -Inscription
