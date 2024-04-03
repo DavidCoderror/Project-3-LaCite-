@@ -1,11 +1,11 @@
-What to do List (Update Througout)
+What to do List (Update Throughout)
 
 David (Gaylord) :
--Page D'accueuil
+-Page D'accueil
 -doesnt know how to spell or write
 
 Noah (Short King) :
--Page D'accueuil
+-Page D'accueil
 
 Alex :
 -Inscription
