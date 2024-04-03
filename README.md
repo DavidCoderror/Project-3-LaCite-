@@ -1,6 +1,6 @@
 What to do List (Update Throughout)
 
-David (Gaylord) :
+David (Gaylord Of The Cock Rings) :
 -Page D'accueil
 -doesnt know how to spell or write
 
