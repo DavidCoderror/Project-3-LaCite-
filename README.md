@@ -7,7 +7,7 @@ David (Gaylord) :
 Noah (Short King) :
 -Page D'accueil
 
-Alex :
+Alex(comic sans) :
 -Inscription
 
 Al :
