@@ -98,7 +98,7 @@ font-size: 13px;
 
 .wholeContainer{
     display:flex;
-
+    justify-content: center;
 
 }
 
