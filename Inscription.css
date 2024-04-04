@@ -14,7 +14,7 @@ h1{
     font-weight: 600;
 
 }
-#text1{
+.text1{
 
 text-align: center;
 color: gray;
@@ -22,7 +22,7 @@ font-family: roboto;
 font-weight: 600;
 }
 
-#top{
+.top{
 background: linear-gradient(to right, DarkSeaGreen, Lightyellow);
 height:220px;
 padding-top:0;
@@ -59,7 +59,7 @@ p{
 
 
 
-#Bienvenue{
+.Bienvenue{
     font-family: "Arial", sans-serif;
     color: rgb(113, 150, 113);
     margin-left: 10px;
@@ -80,7 +80,7 @@ font-size: 13px;
 
 }
 
-#commentaires{
+.commentaires{
     font-weight: bold;
     padding-top: 30px;
     color: rgb(113, 150, 113);
@@ -88,7 +88,7 @@ font-size: 13px;
     font-size: 13px;
 
 }
-#acheter{
+.acheter{
     color:white;
     background-color: rgb(92, 137, 137);
     width:100px;
@@ -96,13 +96,13 @@ font-size: 13px;
 
 }
 
-#wholeContainer{
+.wholeContainer{
     display:flex;
 
 
 }
 
-#leftContainer{
+.leftContainer{
 
    
     flex-wrap: wrap;
@@ -111,6 +111,6 @@ font-size: 13px;
 }
 
 
-#rightContainer{
+.rightContainer{
     margin-left: 300px;
 }

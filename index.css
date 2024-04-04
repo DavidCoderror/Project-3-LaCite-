@@ -76,7 +76,7 @@ h2{
     color: white;
 }
 
-#buttonInscription{
+.buttonInscription{
     padding: 20px;
     border-radius: 7px;
 
@@ -85,6 +85,6 @@ h2{
     color: white;
 }
 
-#buttonInscription:hover{
+.buttonInscription:hover{
     color:green
 }
