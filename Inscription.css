@@ -1,1 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+/*the import allows the font-weight of roboto to be 300 for correct style*/
+/* to use the import, ou must have font-family:roboto and add a font-weight*/
+/*top part*/
+body{
+    margin: 0;
+}
+h1{
+    text-align: center;
+    padding: 20px;
+    color: rgb(113, 150, 113);
+    font-family: roboto;
+    font-size: 30px;
+    font-weight: 600;
 
+}
+#text1{
+
+text-align: center;
+color: gray;
+font-family: roboto;
+font-weight: 600;
+}
+
+#top{
+background: linear-gradient(to right, DarkSeaGreen, Lightyellow);
+height:220px;
+padding-top:0;
+border: 1px solid;
+border-color:transparent ;
+
+}
+
+/*middle part*/
+h3{
+    margin-top: 50px;
+    margin-left: 10px;
+    color: rgb(113, 150, 113);
+    font-family: "Arial", sans-serif;
+    font-size: 18px;
+    font-weight:100
+
+
+}
+
+h5{
+    margin-left: 10px;
+    color: gray;
+    font-family: "Arial", sans-serif;
+    font-weight:lighter;
+    font-size: 13px;
+
+
+}
+p{
+    color: gray;
+    margin-left: 10px;
+}
+
+
+
+#Bienvenue{
+    font-family: "Arial", sans-serif;
+    color: rgb(113, 150, 113);
+    margin-left: 10px;
+}
+
+ul{
+    color: gray;
+ 
+}
+
+.labels_left_cell{
+font-weight: bold;
+color: rgb(113, 150, 113);
+font-family: "Arial", sans-serif;
+font-size: 13px;
+
+
+
+}
+
+#commentaires{
+    font-weight: bold;
+    padding-top: 30px;
+    color: rgb(113, 150, 113);
+    font-family: "Arial", sans-serif;
+    font-size: 13px;
+
+}
+#acheter{
+    color:white;
+    background-color: rgb(92, 137, 137);
+    width:100px;
+    height:30px;
+
+}
+
+#wholeContainer{
+    display:flex;
+
+
+}
+
+#leftContainer{
+
+   
+    flex-wrap: wrap;
+    width:1000px;
+    height:200px;
+}
+
+
+#rightContainer{
+    margin-left: 300px;
+}
