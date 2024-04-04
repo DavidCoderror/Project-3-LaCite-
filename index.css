@@ -26,7 +26,7 @@ img{
 
 }
 /*moving container to the middle by justify-content*/
-#containerImages{
+.containerImages{
     display:flex;
     justify-content: center;
     padding-bottom: 80px;
