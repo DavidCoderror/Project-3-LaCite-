@@ -85,3 +85,160 @@ h2 {
 .buttonInscription:hover {
     color: green;
 }
+
+/*----------------------------------------------*/
+/*----------------------------------------------*/
+/* Header */
+/*----------------------------------------------*/
+/*----------------------------------------------*/
+
+.headerBigText1{
+    width:100px;
+    display:flex;
+    flex-wrap: wrap;
+    font-size: 40px;
+    color:white;
+    font-family: "Roboto";
+    line-height: 1.0;
+    font-weight: 100 ;
+    padding-bottom: 20px;
+}
+
+.headerBigText2{
+    font-size: 40px;
+    color:white;
+    font-family: "Roboto";
+    margin-top: 0;
+    margin-bottom: 0;
+    
+    font-weight: 100 ;
+}
+
+.headerBackgroundEnTete{
+ background-color: rgb(46,63,81); 
+
+    display:flex;
+    justify-content: center;
+    gap:20%;
+    align-items: flex-end;
+    margin: 0;
+    padding: 0;
+    height:20%;
+   
+}
+
+.headerTopGreen{
+    color: rgb(113, 150, 113);
+    font-family: "Roboto";
+    font-weight: 600;
+    text-align: right;
+    padding-top:18px;
+    margin-bottom:10px;
+}
+.headerWhiteTop{
+    font-family: roboto;
+    font-size: 10px;
+    font-weight: 600;
+    color:white;
+
+   
+}
+.headerSection-2{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    padding-left:40px;
+    align-items: flex-end;
+    padding-bottom: 20px;
+}
+
+.headerSpace{
+    display:flex;
+    justify-content: space-evenly;
+    gap:10px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: rgb(113, 150, 113);
+}
+
+a:visited{
+    color: lightcoral;
+}
+
+a:hover{
+    color:green;
+}
+
+a.lienTitre{
+    color:white;
+}
+
+a.lienTitre:visited{
+    color: lightcoral;
+}
+
+a.lienTitre:hover{
+    color:green;
+}
+
+/*----------------------------------------------*/
+/*----------------------------------------------*/
+/* Footer */
+/*----------------------------------------------*/
+/*----------------------------------------------*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+.piedDePage {
+   display:flex;
+   height: 80px;
+   padding: 10px;
+   align-items: flex-end;
+   justify-content: space-between;
+   
+}
+
+.greenTextPiedDePage{
+   color: rgb(113, 150, 113);
+   font-family: "Roboto";
+   font-weight: 300;
+   font-size: small;
+   padding-top: 50px;
+   width:200px;
+   text-align: left;
+
+}
+
+.whiteTextBox{
+   display:flex;
+   justify-content: flex-end;
+   gap:30px;
+   color:white;
+   font-family: "Roboto";
+   font-weight: 300;
+   font-size: small;
+   text-align: right;
+}
+
+.piedDePageContainer{
+   background-color: rgb(30, 60, 85);
+   justify-content: center;
+   padding-right: 22%;
+   padding-left: 22%;
+}
+
+a.liensPiedDePage{
+   color:white;
+}
+
+a.liensPiedDePage:visited{
+   color: lightcoral;
+}
+
+a.liensPiedDePage:hover{
+   color: green;
+}
