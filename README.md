@@ -11,7 +11,7 @@ To test the responsitivity of a live page: inspect Page -> small icon (laptop an
 Team 1 (Page D'accueil):
 
 
-David (Gaylord Of The Cock Rings) :
+David (Gaylord Of The Cock Rings) : Worked on the setup and respnsivness of the page acceuil
 
 Noah (Short King 
                   CaseOh) :
