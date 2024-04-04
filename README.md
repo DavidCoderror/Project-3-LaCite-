@@ -12,7 +12,7 @@ Team 1 (Page D'accueil):
 
 
 David (Gaylord Of The Cock Rings) :
--Responsive
+
 
 Noah (Short King 
                   CaseOh) :
@@ -24,7 +24,7 @@ Team 2 (Inscription):
 
 
 Alex(comic sans skibidi) :
-Responsive
+
 
 Al :
 Responsive
