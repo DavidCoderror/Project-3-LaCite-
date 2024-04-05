@@ -86,6 +86,16 @@ h2 {
     color: green;
 }
 
+/* Small devices:Everything but header and footer*/
+@media only screen and (max-width: 600px) {
+    /* Centered and column"ed"*/
+    .containerImages {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+
 /*----------------------------------------------*/
 /*----------------------------------------------*/
 /* Header */
@@ -184,6 +194,45 @@ a.lienTitre:hover{
     color:green;
 }
 
+/*Header: Only for small devices*/
+@media only screen and (max-width: 600px) {
+
+    /* Flex is gone */
+    .headerBackgroundEnTete{
+        background-color: rgb(46,63,81); 
+           display:block;
+           align-items: center;
+           text-align: center;
+           justify-content: center;
+           font-size: 2em;
+       }
+
+    /* Organisation des sous-titre: Centered */
+    .headerSection-2{
+        display: flex;
+        flex-direction: column;
+        padding-left:0;
+        text-align: center;
+        align-items:center;
+        font-size: 15px;
+    }
+
+    .headerWhiteTop{
+        font-size: 0.5em ;
+    }
+}
+
+/*Galaxy Fold- Smallest Phone*/
+@media only screen and (max-width: 300px) {
+    .partiNavBar{
+        padding: 5px;
+        text-align: center
+
+    }
+}
+
+
+
 /*----------------------------------------------*/
 /*----------------------------------------------*/
 /* Footer */
@@ -241,4 +290,19 @@ a.liensPiedDePage:visited{
 
 a.liensPiedDePage:hover{
    color: green;
+}
+
+/* Footer for small devices*/
+@media only screen and (max-width: 600px) {
+    /*Take off Flex for links*/
+    .whiteTextBox{
+        display: block;
+        padding: 0;
+        font-size: 15px;
+    }
+    
+    /* Make it move towards middle*/
+    .greenTextPiedDePage{
+        width: 0;
+    }
 }
