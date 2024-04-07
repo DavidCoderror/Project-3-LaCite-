@@ -11,7 +11,7 @@ To test the responsitivity of a live page: inspect Page -> small icon (laptop an
 Team 1 (Page D'accueil):
 
 
-David (Gaylord Of The Cock Rings) :Worked on Page d'acceuil and Inscription, Acceuil shoul dbe done but Inscritpion is far from it
+David (L skibidi rizz) :Worked on Page d'acceuil and Inscription, Acceuil shoul dbe done but Inscritpion is far from it
 
 Noah (Short King 
                   CaseOh) :
