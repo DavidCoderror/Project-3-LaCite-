@@ -57,6 +57,7 @@ h5 {
 
 a {
     text-decoration: none;
+    text-align: center;
 }
 
 .centxt {
@@ -195,7 +196,7 @@ a.lienTitre:hover{
 }
 
 /*Header: Only for small devices*/
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 830px) {
 
     /* Flex is gone */
     .headerBackgroundEnTete{
@@ -219,6 +220,13 @@ a.lienTitre:hover{
 
     .headerWhiteTop{
         font-size: 0.5em ;
+    }
+
+    .headerBigText1{
+        width: auto;
+        text-align: center;
+        align-items: center;
+        display: block;
     }
 }
 
