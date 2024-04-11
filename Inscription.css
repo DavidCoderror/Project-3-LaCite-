@@ -135,19 +135,8 @@ width:200px
     padding-bottom: 20px;
 }
 
-.headerBigText2{
-    font-size: 40px;
-    color:white;
-    font-family: "Roboto";
-    margin-top: 0;
-    margin-bottom: 0;
-    
-    font-weight: 100 ;
-}
-
 .headerBackgroundEnTete{
- background-color: rgb(46,63,81); 
-
+    background-color: rgb(46,63,81); 
     display:flex;
     justify-content: center;
     gap:20%;
@@ -304,13 +293,6 @@ a.lienTitre:hover{
    font-weight: 300;
    font-size: small;
    text-align: right;
-}
-
-.piedDePageContainer{
-   background-color: rgb(30, 60, 85);
-   justify-content: center;
-   padding-right: 22%;
-   padding-left: 22%;
 }
 
 a.liensPiedDePage{
