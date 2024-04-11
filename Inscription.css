@@ -282,8 +282,7 @@ a.lienTitre:hover{
     height: 80px;
     padding: 10px;
     align-items: flex-end;
-    justify-content: space-between;
-   
+    justify-content: space-evenly;  
 }
 
 .greenTextPiedDePage{
@@ -294,7 +293,6 @@ a.lienTitre:hover{
    padding-top: 50px;
    width:200px;
    text-align: left;
-
 }
 
 .whiteTextBox{
