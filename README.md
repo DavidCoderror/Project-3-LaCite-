@@ -13,7 +13,7 @@ Team 1 (Page D'accueil):
 
 David (L skibidi rizz) :Worked on Page d'acceuil and Inscription, Acceuil shoul dbe done but Inscritpion is far from it
 
-Noah (Short King 
+Noah (Short King          
                   CaseOh) :
 
 ---------------------------------------------------------------------------------------------------------
@@ -22,7 +22,7 @@ Noah (Short King
 Team 2 (Inscription):
 
 
-Alex(comic sans skibidi) :
+Alex(baby gronkzilla) :
 
 
 Al :
