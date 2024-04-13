@@ -14,7 +14,7 @@ Team 1 (Page D'accueil):
 David (L skibidi rizz) :Worked on Page d'acceuil and Inscription, Acceuil shoul dbe done but Inscritpion is far from it
 
 Noah (Short King          
-                  CaseOh) :
+                                                        CaseOh) :
 
 ---------------------------------------------------------------------------------------------------------
 
