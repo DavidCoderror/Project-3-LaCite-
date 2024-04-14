@@ -6,131 +6,6 @@ body{
     margin: 0;
 }
 
-h1{
-    text-align: center;
-    padding: 20px;
-    color: rgb(113, 150, 113);
-    font-family: roboto;
-    font-size: 30px;
-    font-weight: 600;
-
-}
-
-#text1{
-    text-align: center;
-    color: gray;
-    font-family: roboto;
-    font-weight: 600;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-#top{
-    background: linear-gradient(to right, DarkSeaGreen, Lightyellow);
-    padding-top:0;
-    border: 1px solid;
-    border-color:transparent ;
-    width: 100%;
-}
-
-/*middle part*/
-h3{
-    margin-top: 50px;
-    margin-left: 10px;
-    color: rgb(113, 150, 113);
-    font-family: "Arial", sans-serif;
-    font-size: 18px;
-    font-weight:100
-
-}
-
-h5{
-    margin-left: 10px;
-    color: gray;
-    font-family: "Arial", sans-serif;
-    font-weight:lighter;
-    font-size: 13px;
-
-
-}
-
-p{
-    color: gray;
-    margin-left: 10px;
-}
-
-#Bienvenue{
-    font-family: "Arial", sans-serif;
-    color: rgb(113, 150, 113);
-    margin-left: 10px;
-}
-
-ul{
-    color: gray;
-    list-style-type: square;
-}
-
-.labels_left_cell{
-font-weight: bold;
-color: rgb(113, 150, 113);
-font-family: "Arial", sans-serif;
-font-size: 13px;
-width:200px
-}
-
-.commentaires{
-    font-weight: bold;
-    padding-top: 30px;
-    color: rgb(113, 150, 113);
-    font-family: "Arial", sans-serif;
-    font-size: 13px;
-
-}
-#acheter{
-    color:white;
-    background-color: rgb(92, 137, 137);
-    width:100px;
-    height:30px;
-
-}
-
-#wholeContainer{
-    display:flex;
-    justify-content: center;
-
-}
-
-#leftContainer{
-    flex-wrap: wrap;
-    width:1000px;
-    height:200px;
-}
-
-
-#rightContainer{
-    margin-left: 3em;
-    margin-top: 2.5%;
-}
-
-.separateurDeContenu{
-    margin-top:5%;
-    margin-bottom:5%;
-}
-
-#nomInput{
-    width: 200px;
-}
-
-#telephoneInput{
-    width: 200px;
-}
-
-
-#courrielInput{
-    width: 200px;
-}
-
-
 /*----------------------------------------------*/
 /*----------------------------------------------*/
 /* Header */
@@ -222,7 +97,7 @@ a.lienTitre:hover{
 }
 
 /*Header: Only for small devices*/
-@media only screen and (max-width: 830px) {
+@media only screen and (max-width: 650px) {
 
     /* Flex is gone */
     .headerBackgroundEnTete{
@@ -231,7 +106,6 @@ a.lienTitre:hover{
         align-items: center;
         text-align: center;
         justify-content: center;
-        font-size: 2em;
         padding-top: 2em;
         padding-right: 4em;
         padding-left: 4em;
@@ -260,6 +134,7 @@ a.lienTitre:hover{
         flex-direction: column; 
         margin:0%;
         padding:0%;
+        font-size: 2em;
     }
 
     
@@ -272,6 +147,175 @@ a.lienTitre:hover{
         text-align: center
 
     }
+}
+
+
+h1{
+    text-align: center;
+    padding: 20px;
+    color: rgb(113, 150, 113);
+    font-family: roboto;
+    font-size: 30px;
+    font-weight: 600;
+
+}
+
+#text1{
+    text-align: center;
+    color: gray;
+    font-family: roboto;
+    font-weight: 600;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#top{
+    background: linear-gradient(to right, DarkSeaGreen, Lightyellow);
+    padding-top:0;
+    border: 1px solid;
+    border-color:transparent ;
+    width: 100%;
+}
+
+/*middle part*/
+h3{
+    margin-top: 50px;
+    margin-left: 10px;
+    color: rgb(113, 150, 113);
+    font-family: "Arial", sans-serif;
+    font-size: 18px;
+    font-weight:100
+
+}
+
+h5{
+    margin-left: 10px;
+    color: gray;
+    font-family: "Arial", sans-serif;
+    font-weight:lighter;
+    font-size: 13px;
+
+
+}
+
+p{
+    color: gray;
+    margin-left: 10px;
+}
+
+#Bienvenue{
+    font-family: "Arial", sans-serif;
+    color: rgb(113, 150, 113);
+    margin-left: 10px;
+}
+
+ul{
+    color: gray;
+    list-style-type: square;
+}
+
+.labels_left_cell{
+    font-weight: bold;
+    color: rgb(113, 150, 113);
+    font-family: "Arial", sans-serif;
+    font-size: 13px;
+    width:200px
+}
+
+#commentaires{
+    font-weight: bold;
+    padding-top: 30px;
+    color: rgb(113, 150, 113);
+    font-family: "Arial", sans-serif;
+    font-size: 13px;
+
+}
+#acheter{
+    color:white;
+    background-color: rgb(92, 137, 137);
+    width:100px;
+    height:30px;
+
+}
+
+#wholeContainer{
+    display:flex;
+    justify-content: center;
+
+}
+
+#leftContainer{
+    flex-wrap: wrap;
+    width:1000px;
+    height:200px;
+}
+
+
+#rightContainer{
+    margin-left: 3em;
+    margin-top: 2.5%;
+}
+
+.separateurDeContenu{
+    margin-top:5%;
+    margin-bottom:5%;
+}
+
+#nomInput{
+    width: 200px;
+}
+
+#telephoneInput{
+    width: 200px;
+}
+
+
+#courrielInput{
+    width: 200px;
+}
+
+@media only screen and (max-width: 650px){
+    #wholeContainer{
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    #leftContainer{
+        flex-wrap: wrap;
+        width:45%;
+        height:50%;
+    }
+     
+    #rightContainer{
+        margin-top: 7.5%;
+        width: 45%;
+        margin-left:0%;
+    }
+    
+    #nomInput{
+        width: 40%;
+    }
+    
+    #telephoneInput{
+        width: 40%;
+    }
+     
+    #courrielInput{
+        width: 40%;
+    }
+
+    #commentaireTextarea{
+        width:90%;
+    }
+
+    .labels_left_cell{
+        font-weight: bold;
+        color: rgb(113, 150, 113);
+        font-family: "Arial", sans-serif;
+        font-size: 13px;
+        width:40%;
+    }
+    
 }
 
 
@@ -330,10 +374,9 @@ a.liensPiedDePage:hover{
 }
 
 /* Footer for small devices*/
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 650px) {
     /*Take off Flex for links*/
     .whiteTextBox{
-        display: block;
         padding: 0;
         font-size: 15px;
     }
@@ -342,7 +385,14 @@ a.liensPiedDePage:hover{
     .greenTextPiedDePage{
         width: 0;
     }
-
+    
+    .piedDePage{
+        
+        display:block;
+        padding: 5%;
+        bottom:0;
+        position:static;
+    }
 
 }
 
