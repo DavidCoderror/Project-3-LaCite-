@@ -74,7 +74,8 @@ function isValidName(name) {
 }
 
 function isValidPhoneNumber(phoneNumber) {
-    return /^\d{10}$/.test(phoneNumber.replace(/\D/g, ''));
+    // Matches the format: +1(XXX) XXX-XXXX
+    return /^\+1\(\d{3}\) \d{3}-\d{4}$/.test(phoneNumber);
 }
 
 function isValidEmail(email) {
