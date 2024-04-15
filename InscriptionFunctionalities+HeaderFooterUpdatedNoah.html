@@ -77,34 +77,32 @@
     <!-- right-side-->
     
     <!-------------------->
-    <div id="rightContainer">
-    
-        <div id = "spaceForTextBox1"></div> <!--!!!!add divs to add space where these divs contain space-->
+    <div class="rightContainer">
+        <div id = "spaceForTextBox1"></div>
         <input  type="checkbox" value ='Nom' id ="nomCheckbox">
-        <label class="labels_left_cell" id = "spaceForTextBox1">Nom</label> 
-        <div id = "spaceForTextBox1"></div> <!--!!!!add divs to add space where these divs contain space-->
+        <label class="labels_left_cell" id = "spaceForTextBox1" >Nom</label> 
+        <div id = "spaceForTextBox1"></div>
         <input id="nomInput" type="text" placeholder="Nom complet">
-        <p class="nom-error error-message"></p> <!-- Container for the error message -->
-       
-        <input  type="checkbox" value = 'Numéro de Téléphone' id ="telephoneCheckbox">
+        <p class="nom-error error-message"></p>
+
+        <input  type="radio" value = 'Numéro de Téléphone' id ="telephoneCheckbox">
         <label class="labels_left_cell">Numéro de Téléphone</label> 
-        <div id = "spaceForTextBox1"></div> <!--!!!!add divs to add space where these divs contain space-->
-        <input type="text" id="telephoneInput" placeholder="+1(XXX)XXX XXXX">
-        <div id = "spaceForTextBox1"></div> <!--!!!!add divs to add space where these divs contain space-->
-        <p class="telephone-error error-message"></p> <!-- Container for the error message -->
-    
-    
+        <div id = "spaceForTextBox1"></div>
+        <input  id="telephoneInput" type="text" placeholder="+1(XXX)XXX XXXX">
+        <div id = "spaceForTextBox1"></div>
+        <p class="telephone-error error-message"></p>
+
         <input  type="checkbox" value = 'Courriel' id ="courrielCheckbox" >
-        <label class="labels_left_cell" id = "spaceForTextBox1">Courriel</label> 
-        <div id = "spaceForTextBox1"></div> <!--!!!!add divs to add space where these divs contain space-->
+        <label class="labels_left_cell">Courriel</label> 
+         <div id = "spaceForTextBox1"></div>
         <input id="courrielInput" type="text" placeholder="Addresse courriel">
-        <p class="courriel-error error-message"></p> <!-- Container for the error message -->
-    
-        <input  type="checkbox" >
-        <label class="labels_left_cell">Nombre de places</label>
-        <div id = "spaceForTextBox1"></div> <!--!!!!add divs to add space where these divs contain space-->
-    
+        <p class="courriel-error error-message"></p>
+
+        <input  type="radio" id="placesCheckbox" >
+        <label class="labels_left_cell">Nombre de places</label> 
+        <div id = "spaceForTextBox1"></div> 
         <select id="placesSelect">
+          
             <optgroup>
                 <option value="1">1</option>
                 <option value="2">2</option>
@@ -113,25 +111,24 @@
                 <option value="5">5</option>
             </optgroup>
         </select>
-    
-    
-        <div id = "spaceForTextBox1"></div> <!--!!!!add divs to add space where these divs contain space-->
-    
+       
+        <div id = "spaceForTextBox1"></div>
         <input  type="checkbox" value='Commentaire' id ="commentaireCheckbox">
-        <label id="commentaires">Commentaire</label>
-        <div id = "spaceForTextBox1"></div> <!--!!!!add divs to add space where these divs contain space-->
-    
-        <textarea id="commentaireTextarea" cols="30" rows="4"></textarea>
-        <p class="commentaire-error error-message"></p> <!-- Container for the error message -->
-        <p> </p>
-        <input id="acheter" type="submit" style=" border-radius: 5px;" value="Acheter" formaction="">
+        <label class="commentaires">Commentaire</label> 
+         <div id = "spaceForTextBox1"></div>
+        <textarea  id="commentaireTextarea" cols="30" rows="4"> </textarea>
+         <p class="commentaire-error error-message"></p>
+          <p> </p>
+        <input id="acheter" type="submit" style=" border-radius: 5px;" value="Acheter" formaction=""> 
+        
     </div>
-    
-    
-    </div>
+</div>
 
-        <div class="separateurDeContenu"></div>
+<div class="separateurDeContenu"></div>
 
+<script src = "inscription.js">
+
+</script>
         <!-------------------->
 
         <!--pied de page-->
@@ -154,6 +151,6 @@
 
          </div>
 
-         <script src='inscription.js'></script>
+        
     </body>
 </html>
