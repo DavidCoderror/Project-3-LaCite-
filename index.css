@@ -103,14 +103,11 @@ h2 {
     }
 
     .buttonInscription {
-        padding: 2%; /* Adjusted */
-        border-radius: 2%;
+        padding: 15px 30px; /* Adjusted */
+        border-radius: 7px;
         background-color: rgb(46, 63, 81);
         border-color: white;
         color: white;
-        margin:0%;
-        width: 100%;
-        font-size: 0.75em;
     }
 }
 
