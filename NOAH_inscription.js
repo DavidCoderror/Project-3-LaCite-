@@ -1,29 +1,35 @@
+// montre et append les message d'erreurs
 var styleElement = document.createElement('style');
 document.head.appendChild(styleElement);
 
-// Add the CSS rules for the .error-message class
+// mets en rouge le messsage d'erreur et en dessous des champs 
 styleElement.sheet.insertRule('.error-message { color: red; font-size: 12px; display: block; margin-top: 5px; }', 0);
 
-// Add the CSS rules for the .error class
-styleElement.sheet.insertRule('.error { border: 1px solid red; }', 1);
 
 
+// access au champs
 document.getElementById('acheter').addEventListener('click', function(event) {
     var nom = document.getElementById('nomInput').value;
     var telephone = document.getElementById('telephoneInput').value;
     var courriel = document.getElementById('courrielInput').value;
     var commentaire = document.getElementById('commentaireTextarea').value;
 
+
+//////////////////////////application de la fonction message d'erreur/////////////////////////////////
+
     validateAndDisplayError('nomInput', isValidName(nom), 'nom');
     validateAndDisplayError('telephoneInput', isValidPhoneNumber(telephone), 'telephone');
     validateAndDisplayError('courrielInput', isValidEmail(courriel), 'courriel');
     validateAndDisplayError('commentaireTextarea', isValidCommentaire(commentaire), 'commentaire');
 
-    // Check if all fields are valid
+//////////////////////verifie si tout les champs sont valide/////////////////////////////////
+
     var nomError = document.querySelector('.nom-error').textContent;
     var telephoneError = document.querySelector('.telephone-error').textContent;
     var courrielError = document.querySelector('.courriel-error').textContent;
     var commentaireError = document.querySelector('.commentaire-error').textContent;
+
+/////////////////////////////application de l'alert avec les checkbox et radio buttons//////////////////////////////////////////
 
     if (nomError === '' && telephoneError === '' && courrielError === '' && commentaireError === '') {
         var message = '';
@@ -57,6 +63,7 @@ document.getElementById('acheter').addEventListener('click', function(event) {
 })
 
 
+//////////////////////////fonction message d'erreur: pour montrer le message d'erreur et la validation///////////////////////////////
 
 function validateAndDisplayError(inputId, isValid, fieldName) {
     var errorMessage = document.querySelector('.' + fieldName + '-error');
@@ -69,21 +76,26 @@ function validateAndDisplayError(inputId, isValid, fieldName) {
     }
 }
 
+
+//////////////////////////fonctions pour le formatage////////////////////////////////
+
 function isValidName(name) {
+    // format: lettres majuscule ou minuscule et espaces 
     return /^[a-zA-Z\s]+$/.test(name);
 }
 
 function isValidPhoneNumber(phoneNumber) {
-    // Matches the format: +1(XXX) XXX-XXXX
+    // format: +1(XXX) XXX-XXXX
     return /^\+1\(\d{3}\) \d{3}-\d{4}$/.test(phoneNumber);
 }
 
 function isValidEmail(email) {
+    // format: chaine contenant @.
     return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
 }
 
 function isValidCommentaire(commentaire) {
+    // au moin 1 caractere
     return commentaire.trim().length > 0;
 }
-
 
