@@ -377,13 +377,45 @@ a.liensPiedDePage:hover{
 @media only screen and (max-width: 650px) {
     /*Take off Flex for links*/
     .whiteTextBox{
-        padding: 0;
-        font-size: 15px;
+        padding: 2%;
+        font-size: 0.75em;
+        width: 100%;
+        
+        
     }
     
     /* Make it move towards middle*/
     .greenTextPiedDePage{
         width: 0;
+        font-size: 0.75em;
+    }
+    
+    .piedDePage{
+        
+        display:block;
+        padding: 5%;
+        bottom:0;
+        position:static;
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+    /*Take off Flex for links*/
+    .whiteTextBox{
+        padding: 2%;
+        font-size: 0.6em;
+        gap:0%;
+        margin-right: 2%;
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+    
+    /* Make it move towards middle*/
+    .greenTextPiedDePage{
+        width: 0;
+        font-size: 0.6em;
     }
     
     .piedDePage{
